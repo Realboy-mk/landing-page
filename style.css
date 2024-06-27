@@ -64,7 +64,6 @@ a {
   align-items: center;
   height: 50px;
   padding: 0 200px;
-  margin-bottom: 60px;
   
   
 }
@@ -101,6 +100,7 @@ a {
 .services {
   display: flex;
   gap: 48px;
+  margin-bottom: 150px;
 
 }
 
