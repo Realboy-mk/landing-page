@@ -6,9 +6,10 @@ body {
   
 }
 
-img {
+.big-header img {
   width: 450px;
 }
+
 
 button {
   font-size: 16px;
@@ -33,7 +34,7 @@ button {
 .header-links {
   list-style: none;
   display: flex;
-  gap: 8px;
+  gap: 32px;
   padding: 0 8px;
 
 }
@@ -81,4 +82,44 @@ a {
   flex-direction: column;
   width: 450px;
   gap: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 48px;
+
+}
+
+.services {
+  display: flex;
+  gap: 48px;
+
+}
+
+.services img {
+  width: 200px;
+  height: 150px;
+  border: solid rgb(0, 149, 255);
+  border-radius: 8px;
+}
+
+.games,
+.exercise,
+.compliment,
+.emotion {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  
 }
