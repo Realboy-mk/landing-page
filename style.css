@@ -123,3 +123,27 @@ a {
   text-align: center;
   
 }
+
+.review {
+  display: flex; 
+  flex-direction: column;
+  padding: 100px 400px;
+  gap: 32px;
+  background-color: #e5e7eb;
+  
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  
+}
+
+.speaker {
+  font-size: 32px;
+  font-weight: 700;
+  align-self: last baseline;
+  margin-right: 100px;
+}
