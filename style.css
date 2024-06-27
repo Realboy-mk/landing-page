@@ -28,7 +28,6 @@ button {
   padding: 0 100px;
   margin: 0 0;
   
-  
 }
 
 .header-links {
@@ -146,4 +145,37 @@ a {
   font-weight: 700;
   align-self: last baseline;
   margin-right: 100px;
+}
+
+
+.sign-up button {
+  border: solid white;
+  color: white;
+}
+
+.sign-up {
+  padding: 100px;
+}
+
+.box {
+  width: 800px;
+  display: flex;
+  background-color: #3882f6;
+  margin: 40px;
+  padding: 40px 80px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.box-text div {
+  color: white;
+  gap: 8px;
+  padding-left: 20px;
+}
+
+.sign-up-bold {
+  font-weight: 700;
+  font-size: 24px;
 }
